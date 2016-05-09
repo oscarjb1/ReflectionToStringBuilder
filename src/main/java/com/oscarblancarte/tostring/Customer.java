@@ -1,10 +1,7 @@
 package com.oscarblancarte.tostring;
 
-import java.io.Serializable;
-import java.util.logging.Logger;
 
-public class Customer implements Serializable{
-	private static final long serialVersionUID = 1L;
+public class Customer {
 	
 	private String name;
 	private String tel;

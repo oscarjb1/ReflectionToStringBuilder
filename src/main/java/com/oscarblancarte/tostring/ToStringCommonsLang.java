@@ -27,10 +27,10 @@ public class ToStringCommonsLang {
 		System.out.println("\nSHORT_PREFIX_STYLE .....");
 		System.out.println(ReflectionToStringBuilder.toString(customer, ToStringStyle.SHORT_PREFIX_STYLE));
 		
-		System.out.println("\nMULTI_LINE_STYLE .....\n");
-		System.out.println(ReflectionToStringBuilder.toString(customer, ToStringStyle.MULTI_LINE_STYLE));
+		System.out.println("\nSIMPLE_STYLE .....");
+		System.out.println(ReflectionToStringBuilder.toString(customer, ToStringStyle.SIMPLE_STYLE));
 		
-		System.out.println("\nRecursiveToStringStyle .....\n");
+		System.out.println("\nRecursiveToStringStyle .....");
 		System.out.println(ReflectionToStringBuilder.toString(customer, new RecursiveToStringStyle() ));
 	}
 	
